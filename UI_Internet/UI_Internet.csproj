@@ -140,7 +140,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Compile Include="Api\Controllers\AjustesController.cs" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Api\App\SwaggerConfig.cs" />
@@ -191,7 +193,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>2581</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:2581/</IISUrl>
+          <IISUrl>http://localhost:10000/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
